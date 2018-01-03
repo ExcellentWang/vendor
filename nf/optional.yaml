@@ -1,0 +1,21 @@
+package: .
+import:
+  #golang x net
+  - package: golang.org/x/net
+  
+  #zookeeper
+  - package: github.com/samuel/go-zookeeper
+  
+  #kafka
+  - package: github.com/Shopify/sarama
+  - package: github.com/klauspost/crc32
+  - package: github.com/davecgh/go-spew
+  - package: github.com/golang/snappy
+  - package: github.com/eapache/go-resiliency
+  - package: github.com/eapache/queue
+  - package: github.com/wvanbergen/kafka/consumergroup
+  - package: github.com/wvanbergen/kazoo-go
+
+
+
+

@@ -1,0 +1,50 @@
+hash: 5e562043f199ab2f9af5787b7a1057712d1d80b186e791578e6be12a4fa18744
+updated: 2016-07-21T14:14:35.40456717+08:00
+imports:
+- name: git.apache.org/thrift.git
+  version: b924dc8d66011d42e4bd648ea19c4b8bbc942522
+  #repo: git@192.168.0.109:ivory/thrift.git
+  vcs: git
+- name: github.com/araddon/gou
+  version: 50a94aa4a3fb69e8fbde05df290fcb49fa685e07
+- name: github.com/bitly/go-hostpool
+  version: d0e59c22a56e8dadfed24f74f452cea5a52722d2
+- name: github.com/cihub/seelog
+  version: 752ef646ce438bc649b2bb565188471879185c33
+  #repo: git@192.168.0.109:github.com/cihub_seelog.git
+  vcs: git
+- name: github.com/coreos/etcd
+  version: da180e07901e6acb74cb168f4c758a4b3bb6db37
+  #repo: git@192.168.0.109:github.com/coreos_etcd.git
+  vcs: git
+  subpackages:
+  - client
+- name: github.com/dgrijalva/jwt-go
+  version: f0777076321ab64f6efc15a82d9d23b98539b943
+  #repo: git@192.168.0.109:github.com/dgrijalva_jwt-go.git
+  vcs: git
+- name: github.com/garyburd/redigo
+  version: b8dc90050f24c1a73a52f107f3f575be67b21b7c
+  #repo: git@192.168.0.109:github.com/garyburd_redigo.git
+  vcs: git
+- name: github.com/go-sql-driver/mysql
+  version: 3654d25ec346ee8ce71a68431025458d52a38ac0
+  #repo: git@192.168.0.109:github.com/go-sql-driver_mysql.git
+  vcs: git
+- name: github.com/jmoiron/sqlx
+  version: bdae0c3219c3bdb92f3d7c70825018712787c933
+  #repo: git@192.168.0.109:github.com/jmoiron_sqlx.git
+  vcs: git
+- name: github.com/mattbaird/elastigo
+  version: 34c4c4d8425cbdcbc8e257943a2044d5e9f7dab5
+- name: github.com/ugorji/go
+  version: b94837a2404ab90efe9289e77a70694c355739cb
+  #repo: git@192.168.0.109:github.com/ugorji_go.git
+  vcs: git
+  subpackages:
+  - codec
+- name: gopkg.in/mgo.v2
+  version: 29cc868a5ca65f401ff318143f9408d02f4799cc
+- name: gopkg.in/tomb.v2
+  version: 14b3d72120e8d10ea6e6b7f87f7175734b1faab8
+devImports: []

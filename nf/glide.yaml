@@ -1,0 +1,49 @@
+package: pingan/nf
+
+import:
+
+  #etcd
+  - package: github.com/coreos/etcd/client
+    vcs: git
+    #repo: git@192.168.0.109:github.com/coreos_etcd.git
+  - package: github.com/ugorji/go/codec
+    vcs: git
+    #repo: git@192.168.0.109:github.com/ugorji_go.git
+    
+  #redigo
+  - package: github.com/garyburd/redigo
+    vcs: git
+    #repo: git@192.168.0.109:github.com/garyburd_redigo.git
+  
+  #mgo
+  - package: gopkg.in/mgo.v2
+  - package: gopkg.in/tomb.v2
+  
+  #sqlx
+  - package: github.com/jmoiron/sqlx
+    vcs: git
+    #repo: git@192.168.0.109:github.com/jmoiron_sqlx.git
+  #mysql
+  - package: github.com/go-sql-driver/mysql
+    vcs: git
+    #repo: git@192.168.0.109:github.com/go-sql-driver_mysql.git
+  
+  #thrift
+  - package: git.apache.org/thrift.git
+    vcs: git
+    #repo: git@192.168.0.109:ivory/thrift.git
+    
+  #elastigo
+  - package: github.com/mattbaird/elastigo
+  - package: github.com/bitly/go-hostpool
+  - package: github.com/araddon/gou
+  
+  #jwt
+  - package: github.com/dgrijalva/jwt-go
+    vcs: git
+    #repo: git@192.168.0.109:github.com/dgrijalva_jwt-go.git
+  
+  #seelog
+  - package: github.com/cihub/seelog
+    vcs: git
+    #repo: git@192.168.0.109:github.com/cihub_seelog.git
