@@ -1,0 +1,23 @@
+package: pingan 
+import:
+
+  #thrift
+  - package: git.apache.org/thrift.git
+    vcs: git
+    #repo: git@192.168.0.11:ivory/thrift.git
+  #nf
+  - package: pingan/nf
+    vcs: git
+    #repo: git@192.168.0.11:ivory/nf.git
+
+  #etcd
+  - package: github.com/coreos/etcd/client
+    vcs: git
+    #repo: git@192.168.0.11:github.com/coreos_etcd.git
+  - package: github.com/ugorji/go/codec
+    vcs: git
+    #repo: git@192.168.0.11:github.com/ugorji_go.git
+  #golang x net
+  - package: golang.org/x/net
+    vcs: git
+    #repo: git@192.168.0.11:golang.org/x_net.git

@@ -1,0 +1,28 @@
+hash: 31df1d7d0cf72033db6b0a1bc6b7d0a0b023d2a0897893bb994903d7fba77a44
+updated: 2016-07-21T14:24:34.535945828+08:00
+imports:
+- name: git.apache.org/thrift.git
+  version: b924dc8d66011d42e4bd648ea19c4b8bbc942522
+  #repo: git@192.168.0.11:ivory/thrift.git
+  vcs: git
+- name: github.com/coreos/etcd
+  version: da180e07901e6acb74cb168f4c758a4b3bb6db37
+  #repo: git@192.168.0.11:github.com/coreos_etcd.git
+  vcs: git
+  subpackages:
+  - client
+- name: github.com/ugorji/go
+  version: b94837a2404ab90efe9289e77a70694c355739cb
+  #repo: git@192.168.0.11:github.com/ugorji_go.git
+  vcs: git
+  subpackages:
+  - codec
+- name: golang.org/x/net
+  version: 6acef71eb69611914f7a30939ea9f6e194c78172
+  #repo: git@192.168.0.11:golang.org/x_net.git
+  vcs: git
+- name: pingan/nf
+  version: 4f04819fedd90b5f1ac99a50879e58129e9dd347
+  #repo: git@192.168.0.11:ivory/nf.git
+  vcs: git
+devImports: []
